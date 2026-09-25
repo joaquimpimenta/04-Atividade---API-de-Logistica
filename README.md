@@ -1,27 +1,27 @@
-# 🚚 API de Logística
+# API de Logística
 
-API REST desenvolvida em **Java + Spring Boot** para gerenciamento de entregas, pedidos, motoristas e clientes. O projeto simula um sistema utilizado por uma empresa de logística para controlar o fluxo completo de entregas e gerar relatórios operacionais.
+API REST desenvolvida em **Java + Spring Boot** para gerenciamento de entregas, pedidos, motoristas e clientes.
 
-## 📖 Sobre o projeto
+## Sobre o projeto
 
 Esta aplicação permite cadastrar clientes, motoristas e pedidos, além de controlar entregas e registrar o histórico de movimentações do sistema.
 
 O projeto foi desenvolvido utilizando arquitetura em camadas, separando responsabilidades entre **Controller**, **Service**, **Repository**, **DTO** e **Mapper**, seguindo boas práticas de desenvolvimento de APIs REST.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-- ✅ Cadastro de clientes
-- ✅ Cadastro de motoristas
-- ✅ Cadastro de pedidos
-- ✅ Controle de entregas
-- ✅ Atualização de status da entrega
-- ✅ Histórico de movimentações
-- ✅ Relatórios operacionais
-- ✅ Validação de dados
-- ✅ Tratamento global de exceções
-- ✅ Documentação automática com Swagger
+- Cadastro de clientes
+- Cadastro de motoristas
+- Cadastro de pedidos
+- Controle de entregas
+- Atualização de status da entrega
+- Histórico de movimentações
+- Relatórios operacionais
+- Validação de dados
+- Tratamento global de exceções
+- Documentação automática com Swagger
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Java 21
 - Spring Boot 4.1.1
@@ -32,10 +32,7 @@ O projeto foi desenvolvido utilizando arquitetura em camadas, separando responsa
 - SpringDoc OpenAPI (Swagger)
 - Maven
 
-## 📂 Estrutura do projeto
-
-```text
-src/main/java/com/br/api_logistica
+## Estrutura do projeto
 │
 ├── controller      # Endpoints da API
 ├── service         # Regras de negócio
@@ -46,7 +43,7 @@ src/main/java/com/br/api_logistica
 └── exception       # Tratamento de erros
 ```
 
-## 🚀 Como executar
+## Como executar
 
 ### Pré-requisitos
 
@@ -88,45 +85,6 @@ http://localhost:8089
 Após iniciar o projeto, acesse:
 
 | Ferramenta | URL |
-|------------|-----|
-| Swagger UI | `http://localhost:8089/swagger-ui.html` |
-| OpenAPI JSON | `http://localhost:8089/v3/api-docs` |
 
-## 📌 Principais recursos
-
-| Recurso | Descrição |
-|----------|-----------|
-| Clientes | Gerenciamento dos clientes |
-| Motoristas | Cadastro e consulta de motoristas |
-| Pedidos | Controle dos pedidos realizados |
-| Entregas | Gerenciamento das entregas e status |
-| Histórico | Registro das movimentações |
-| Relatórios | Informações consolidadas da operação |
-
-## 🧱 Arquitetura
-
-O projeto utiliza uma arquitetura em camadas:
-
-```text
-Cliente HTTP
-      │
-      ▼
- Controller
-      │
-      ▼
-  Service
-      │
-      ▼
- Repository
-      │
-      ▼
- Entidades
-```
-
-Os **DTOs** são utilizados para comunicação com a API e os **Mappers** realizam a conversão entre DTO e Entity.
-
-## 👨‍💻 Autor
-
-**Joaquim Augusto**
-
-Projeto desenvolvido como atividade prática de desenvolvimento Back-end utilizando Spring Boot.
+| Swagger UI | `http://localhost:8089/swagger-ui.html`
+| OpenAPI JSON | `http://localhost:8089/v3/api-docs`
