@@ -32,17 +32,6 @@ O projeto foi desenvolvido utilizando arquitetura em camadas, separando responsa
 - SpringDoc OpenAPI (Swagger)
 - Maven
 
-## Estrutura do projeto
-│
-├── controller      # Endpoints da API
-├── service         # Regras de negócio
-├── repository      # Acesso aos dados
-├── entity          # Entidades do sistema
-├── dto             # Objetos de requisição e resposta
-├── mapper          # Conversão entre Entity e DTO
-└── exception       # Tratamento de erros
-```
-
 ## Como executar
 
 ### Pré-requisitos
@@ -79,12 +68,3 @@ A aplicação será iniciada em:
 ```text
 http://localhost:8089
 ```
-
-## 📘 Documentação da API
-
-Após iniciar o projeto, acesse:
-
-| Ferramenta | URL |
-
-| Swagger UI | `http://localhost:8089/swagger-ui.html`
-| OpenAPI JSON | `http://localhost:8089/v3/api-docs`
